@@ -1,0 +1,13 @@
+.form {
+  margin: 32px 0;
+
+  & > * {
+    margin-top: 16px;
+  }
+}
+
+.form-group {
+  label + input {
+    margin-left: 16px;
+  }
+}
